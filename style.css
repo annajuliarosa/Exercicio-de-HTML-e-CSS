@@ -1,0 +1,93 @@
+body{
+    background-color: black;
+
+}
+
+header {
+background-color: green;
+height: 108px;
+padding-top: 30px;
+
+}
+
+img {
+   height: 70px;
+
+}
+
+footer {
+    clear: both;
+    background-color:green;
+    height: 50px;
+    text-align: center;
+    padding: 4px;
+    text-shadow: 1px 1px 1px #111111;
+    font-size: 12px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    
+}
+
+
+
+h1{
+    padding: 100px 0 0 0;
+    color: orange;
+    text-align: center;
+    text-shadow: 1px 1px 1px #111111;
+}
+
+.efeito{
+    background-color: rgb(0, 0, 0, 0.5);
+    padding: 0px 0 100px 0;
+}
+
+#principal{
+   background-image: url('city.jpg');
+   background-size: 100%;
+   min-height: 515px;
+   clear: both;
+  
+}
+#principal p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding: 50px 0 0 0;
+    color: white;
+    text-shadow: 1px 1px 1px #111111;
+}
+
+#logo{
+float: left;
+
+}
+
+#menu{
+float: right;
+margin-top: 30px;
+
+}
+
+#menu a:hover{
+    padding: 61px 20px;
+    background-color: black;
+    color: green;  
+}
+
+#menu a{
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+    text-shadow: 1px 1px #111111;
+    
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+   
+}
